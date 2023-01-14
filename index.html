@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="responsive.css">
+  <title>CV</title>
+</head>
+<body>
+  <script src="script.js"></script>
+  <header>
+    <div class="container-menu">
+      <div class="header-menu">
+        <h1 class="menu-items name_item">GO</h1>
+        <div class="menu-items navigator_item">
+          <ul class="list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>          
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div id="home" class="home-section fix">
+    <div class="intro">
+      <div class="container">
+        <div class="elements">
+          <div class="item item_greetings">
+            <h1 class="item_1">Hello! I'm <span class="highlight">Gleb</span></h1>
+            <h1 class="item_2"><em>Front-End developer</em></h1>
+            <a  class="button" href="#about">Let's start!</a>
+          </div>
+          <div class="item item_avatar">
+            <div class="circle"></div>
+            <img class="avatar-image" src="images/bobross.jpeg" alt="bob ross">
+          </div>  
+        </div>
+      </div> 
+    </div>
+  </div>
+
+  <div id="about" class="about-section fix">
+    <div class="about">
+      <div class="container">
+        <div class="elements-about">
+          <div class="text-elements text-center">
+            <h1 class="section-header">
+              About <span class="highlight">Me</span>
+            </h1>
+            <div class="who__am__i">
+              My full name is Gleb Obyskalov and I'm from small city called Smolevichi
+            </div>
+            <div class="about__text">
+              Very purposeful, creative, communicative and motivated to learn and work in sphere of web-development. <br> I'm a sophomore in BSU at the Radiophysics faculty. Playing piano in advanced level, in my free time I appreciate classic fiction and foreign TV series, fan of table tennis and 'Korol i Shut' band. <br> Ready to grow at both front-end and back-end spectrums. 
+            </div>
+          </div>
+          <div class="image-container">
+            <div class="image__flex">
+              <img class="about__image" src="images/keys.jpg" alt="piano">
+              <img class="openedBook__image" src="images/opened book2.jpg" alt="books">
+              <img class="about__image" src="images/racket.jpg" alt="racket">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="skills" class="skills-section fix">
+    <div class="skills">
+      <div class="container">
+        <h1 class="section-header text-center">
+          My <span class="highlight">Skills</span> 
+        </h1>
+        <div class="languages">
+          <div class="block html__block">
+            <img src="images/logos/html.jpg" alt="HTML" class="logo">
+            <div class="skills-list">
+              <p class="skills__paragraph">HTML:</p>
+              <ul class="skills__ul">
+                <li class="skill">HTML 5</li>
+              </ul>
+            </div>
+          </div>
+          <div class="block css__block">
+            <img src="images/logos/css.jpg" alt="CSS" class="logo">
+            <div class="skills-list">
+              <p class="skills__paragraph">CSS:</p>
+              <ul class="skills__ul">
+                <li class="skill">CSS 3</li>
+                <li class="skill">Grid</li>
+                <li class="skill">Flexbox</li>
+                <li class="skill">Bootstrap</li>
+              </ul>
+            </div>
+          </div>
+          <div class="block js__block">
+            <img src="images/logos/javascript.jpg" alt="JavaScript" class="logo">
+            <div class="skills-list">
+              <p class="skills__paragraph">JavaScript:</p>
+              <ul class="skills__ul">
+                <li class="skill">JavaScript syntax</li>
+                <li class="skill">ECMAScript 6</li>
+              </ul>
+            </div>
+          </div>
+          <div class="block cpp__block">
+            <img src="images/logos/cpp.jpg" alt="C++" class="logo">
+            <div class="skills-list">
+              <p class="skills__paragraph">C++:</p>
+              <ul class="skills__ul">
+                <li class="skill">C++ syntax</li>
+                <li class="skill">OOP</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact" class="contact-section fix">
+    <div class="contact">
+      <div class="container">
+        <div class="contact-area">
+          <div class="center">
+            <h1 class="section-header">
+              <span class="highlight">Text</span> Me.
+            </div>
+          </div>
+          <div class="input-area">
+            <input type="text" placeholder="Full name" name="username" class="_input fullname">
+            <input type="text" placeholder="Topic" name="topic" class="_input topic">
+            <textarea placeholder="Your message" name="message" class="_input message"></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+</body>
+</html>
